@@ -31,7 +31,7 @@
          </property>
          <property
                   name="windowImages"
-                  value="icons/alt_window_16.gif,images/alt_window_32.gif">
+                  value="icons/alt_window_16.gif,icons/alt_window_32.gif">
             </property>
          <property
                 name="startupForegroundColor"
@@ -44,6 +44,10 @@
             <property
                   name="startupProgressRect"
                   value="0,280,455,15">
+            </property>
+            <property
+                  name="preferenceCustomization"
+                  value="plugin_customization.ini">
             </property>
       </product>
   </extension>
