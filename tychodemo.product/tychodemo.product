@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Tycho Demo RCP" uid="tychodemo.product" id="tychodemo.bundle.product" application="tychodemo.bundle.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Tycho Demo RCP" uid="tychodemo.product" id="tychodemo.bundle.product" application="tychodemo.bundle.application" version="1.0.1.qualifier" useFeatures="true" includeLaunchers="true">
 
 
    <configIni use="default">
@@ -19,10 +19,9 @@
       startupProgressRect="0,280,455,15"
       startupMessageRect="7,220,441,20"
       startupForegroundColor="FFFFFF" />
-      
    <launcher name="myRCP">
-      <solaris/>
       <linux icon="icons/alt_launcher.xpm"/>
+      <solaris/>
       <win useIco="true">
          <ico path="icons/alt_launcher.ico"/>
          <bmp/>
@@ -38,7 +37,7 @@
    </plugins>
 
    <features>
-      <feature id="tychodemo.feature" version="1.0.0.qualifier"/>
+      <feature id="tychodemo.feature" version="1.0.1.qualifier"/>
    </features>
 
    <configurations>

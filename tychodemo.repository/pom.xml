@@ -6,15 +6,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>parent</artifactId>
+		<artifactId>tychodemo.parent</artifactId>
 		<groupId>tychodemo</groupId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../tychodemo.parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>tychodemo</groupId>
 	<artifactId>tychodemo.repository</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 
 </project>
